@@ -42,8 +42,6 @@ public class DesarrolladorModel extends EmpleadoModel {
 
     @Override
     public String toString() {
-        return "Empleado: Desarrollador" + super.toString() ;
+        return "Empleado: Diseñador" + super.toString() ;
     }
-
-    
 }

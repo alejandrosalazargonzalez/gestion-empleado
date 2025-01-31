@@ -93,10 +93,11 @@ public abstract class EmpleadoModel {
 
     @Override
     public String toString() {
-        return " Nombre: " + getNombre() +
+        return "\n Nombre: " + getNombre() +
             "\n Edad: " + getId() +
             "\n Salario base:  " + getSalarioBase() +
-            "\n Salario final: '" +  calcularSalarioFinal();
+            "\n Salario final: " +  calcularSalarioFinal()
+            + "\n";
     }
     
 }
